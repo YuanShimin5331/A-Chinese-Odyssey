@@ -1,0 +1,642 @@
+
+header{
+  border-bottom: 1px solid #EEEEEE;
+  background-color:white;
+}
+.header{
+  width: 1000px;
+  margin: 0 auto;
+  height: 56px;
+  position: relative;
+  font-size: 12px;
+}
+#logo{
+  float: left;
+}
+#logo a{
+  text-indent: -999em;
+  display: block;
+  margin-top: 5px;
+  width: 133px;
+  height: 44px;
+  background: url("../img/logo_b5525b7.png");
+}
+#advertisement{
+  float: left;
+  width: 420px;
+  height: 55px;
+  position: relative;
+}
+#big-advertisement{
+  position: absolute;
+  top:55px;
+  left: -133px;
+  display: none;
+  z-index: 4;
+}
+#advertisement>img{
+  display: block;
+}
+#advertisement:hover >img{
+  display: none;
+}
+#advertisement:hover #big-advertisement{
+  display:block;
+
+}
+.header-a-set{
+  width: 80px;
+  height: 55px;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 15px 5px;
+
+}
+.header-first-a{
+  margin-left: 30px;
+  margin-right: 5px;
+}
+/*注册、充值*/
+.header-a-set:hover{
+  background-color:#F3F3F3;
+  border-bottom: 3px solid #bc2e2e;
+}
+#game-list{
+  height: 55px;
+  box-sizing: border-box;
+  position: relative;
+
+}
+#game-list i{
+  display: block;
+  padding-top: 15px;
+  color: #bc2e2e;
+}
+#game-list em{
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: 24px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #bc2e2e transparent transparent transparent;
+}
+#game-list i{
+  padding-left: 10px;
+}
+#game-list:hover {
+  border-bottom: 3px solid #bc2e2e;
+  background-color:#F3F3F3;
+}
+#game-list:hover #game-list-content{
+  display: block;
+}
+/*游戏列表内容*/
+#game-list-content{
+  width: 1000px;
+  height: 500px;
+  background-color: #F5F4F6;
+  position: absolute;
+  top: 55px;
+  left: -753px;
+  opacity: 0.9;
+  display: none;
+  z-index: 4;
+}
+
+#header-right{
+  width: 110px;
+  height: 55px;
+  text-align: center;
+  margin-right: 5px;
+  position: relative;
+  overflow: hidden;
+}
+#header-right ul{
+  position: absolute;
+}
+#header-right ul li{
+  height: 55px;
+  display: block;
+  box-sizing: border-box;
+
+}
+#header-right ul li:hover {
+
+  border-bottom: 3px solid #bc2e2e;
+  background-color:#F3F3F3;
+}
+#header-right ul li a{
+  display: block;
+  padding-top:15px;
+  box-sizing: border-box;
+}
+
+/*游戏列表*/
+#game-list-content .left{
+  width: 300px;
+  height: 500px;
+
+  box-sizing: border-box;
+
+}
+/*游戏列表左边*/
+#game-list-left-ul{
+  width: 130px;
+  padding-left: 20px;
+}
+#game-list-content li{
+  margin-top: 9px;
+  position: relative;
+}
+/*所有li里面的img 应该*/
+li img{
+  display: block;
+  margin-top: 4px;
+}
+/*遊戲列表中間的div*/
+#game-list-content .middle{
+  width: 570px;
+  height: 500px;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  box-sizing: border-box;
+
+}
+#game-list-content .right{
+  width: 130px;
+  height: 500px;
+  box-sizing: border-box;
+
+}
+#game-list-content h3{
+  color: #bc2e2e;
+  height: 40px;
+  box-sizing: border-box;
+  font-weight:bold;
+  font-size: 14px;
+  padding: 20px;
+}
+/*ul中第一个li的样式*/
+.ul-first-li{
+  font-weight: bold;
+}
+#game-list-left-ul-left{
+  width: 95px;
+  padding-left: 20px;
+}
+#game-list-content .left{
+  position: relative;
+}
+/*更多热门端游*/
+#game-list-content .left span{
+  display: block;
+  width: 30px;
+  height: 108px;
+  position: absolute;
+  top: 210px;
+  right: 0;
+  background-color: #BE3939;
+  color: white;
+  text-align: center;
+}
+#game-list-middle-left-ul{
+  width: 130px;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-right: 1px solid #EEEEEE;
+}
+#game-list-middle-middle-ul{
+  width: 135px;
+  padding-left: 10px;
+}
+#game-list-middle-middle-middle-ul{
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 9px;
+
+}
+#game-list-middle-middle-right-ul {
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 9px;
+}
+.sold{
+  width: 1px;
+  height: 100%;
+  background-color: #EEEEEE;
+  position: absolute;
+  top: 0;
+  left: 461px;
+
+}
+#game-list-content .fl.middle span{
+  display: block;
+  width: 30px;
+  height: 108px;
+  position: absolute;
+  top: 210px;
+  right: 131px;
+  background-color: #BE3939;
+  color: white;
+  text-align: center;
+}
+#game-list-right-ul{
+  margin-top: 2px;
+  margin-left: 15px;
+  width: 110px;
+}
+#wangyi{
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+}
+#game-list-right-ul i{
+  display: block;
+  margin-top:5px ;
+}
+/*第二行导航栏*/
+.second-nav{
+  position: absolute;
+  top: 57px;
+  left:-175px;
+  z-index: 3;
+  width: 1349px;
+  height: 60px;
+  opacity: 0.9;
+  background-color: #FBFAF9;
+}
+#head-next-nav{
+  position:absolute;
+  top:0;
+  left: 50%;
+  margin-left: -44%;
+  width: 1200px;
+  height: 60px;
+  background-color: #FBFAF9;
+}
+.w{
+  width: 1200px;
+  margin: auto;
+}
+.head-nav{
+  height: 60px;
+  position: absolute;
+
+}
+.nav-ul-li{
+  float: left;
+  display: block;
+  line-height: 60px;
+  width: 104px;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  margin-right: 21px;
+}
+#head-next-nav-tu{
+  width: 200px;
+  padding-top: 20px;
+}
+#head-next-nav .nav-ul-li>a{
+  display: block;
+  height: 60px;
+  width: 104px;
+}
+.nav-ul-li-last{
+  float: left;
+  display: block;
+  line-height: 60px;
+  width: 104px;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+
+}
+
+.nav-child-ul{
+  display: none;
+  background-color: #FFFFFF ;
+}
+.nav-child-ul li{
+  text-align: center;
+  height: 39px;
+  line-height: 39px;
+  transform:rotateY(0deg);
+  transition: all 1s
+}
+.nav-child-ul li:hover{
+  background-color: #FFFFFF;
+}
+.em-nav{
+  display: none;
+  height: 7px;
+  width: 104px;
+  background: url("../img/index_z_07f28d7.png") -191px -459px no-repeat;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+
+#new li:hover {
+  transform:rotateY(360deg);
+
+}
+.a-nonestyle{
+  cursor:default
+}
+#means span{
+  display: block;
+  width: 0;
+  height: 240px;
+  background: url("../img/index_z_07f28d7.png") -869px -306px no-repeat;
+  position: absolute;
+  left: 103px;
+  top:40px;
+}
+#mouth span{
+  display: block;
+  width: 0;
+  height: 170px;
+  background: url("../img/index_z_07f28d7.png") -1254px -306px no-repeat;
+  position: absolute;
+  left: 103px;
+  top:60px;
+}
+#gonglv span {
+  display: block;
+  width: 0;
+  height: 166px;
+  background: url("../img/index_z_07f28d7.png") -1062px -575px no-repeat;
+  position: absolute;
+  left: 103px;
+  top:60px;
+}
+#exchange span {
+  display: block;
+  width: 0;
+  height: 166px;
+  background: url("../img/index_z_07f28d7.png") -869px -575px no-repeat;
+  position: absolute;
+  left: 103px;
+  top:60px;
+}
+#exchange span img{
+ display: none;
+  width: 100px;
+  height:100px;
+  position: relative;
+  top:30px;
+  left: 0;
+}
+#nav-box-box{
+  width: 1349px;
+  height: 665px;
+  margin: 0 auto;
+  position: relative;
+}
+#nav-box{
+  width: 1349px;
+  height: 815px;
+  margin: 0 auto;
+  position: absolute;
+  overflow: hidden;
+
+}
+#show-in{
+  width: 1920px;
+  height: 665px;
+  position: absolute;
+  left: -960px;
+  top:0;
+  margin-left: 50%;
+
+}
+#show-in ul{
+  position: relative;
+}
+#show-in ul li{
+  width: 1920px;
+  float: left;
+  position: relative;
+}
+#show-in ol{
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#show-in ol li{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 5px solid #92BEEF;
+  float: left;
+}
+#show-in ol .current{
+  background: #92BEEF;
+}
+#img-onload{
+  width: 290px;
+  height: 174px;
+  background-color: #E3E0E4;
+  position: absolute;
+  right: 485px;
+  bottom: 15px;
+  padding: 13px;
+}
+#img-onload .erweima{
+  width: 87px;
+  height: 87px;
+  display: block;
+  padding: 5px;
+  border: 3px solid gray;
+}
+#img-onload .ios{
+  display: block;
+  width: 170px;
+  height: 50px;
+  background: url("../img/ios.png") no-repeat;
+  position: absolute;
+  right: 18px;
+  top:15px;
+}
+#img-onload .andrio{
+  display: block;
+  width: 170px;
+  height: 50px;
+  background: url("../img/and_btn2_0bf4909.png") no-repeat;
+  position: absolute;
+  right: 18px;
+  top:70px;
+}
+#img-onload .exit{
+  display: block;
+  margin-top: 22px;
+  width: 287px;
+  height: 50px;
+  background: url("../img/index_z_07f28d7.png") -493px -1388px no-repeat;
+}
+#img-onload .ru{
+  display: block;
+  width: 142px;
+  height: 211px;
+  position: absolute;
+  right: -152px;
+  top:0;
+  background: url("../img/time1_b369519.png");
+}
+#img-onload .ru:hover {
+  position: absolute;
+  right: -142px;
+  top:0;
+}
+#img-onload .luntan{
+  display: block;
+  width: 120px;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: url("../img/btn_small_74e89ec.png");
+}
+#img-onload u{
+  display: block;
+  width: 106px;
+  height: 9px;
+  background:url("../img/line_f7b07c8.png");
+  position: absolute;
+  left: 10px;
+  top:20px;
+  animation: qrcode 2.5s both linear infinite;
+}
+/*测试*/
+#text{
+  height: 100px;
+  background-color: green;
+  position: relative;
+  z-index: 3;
+}
+#show-in ul em{
+  display: block;
+  width: 600px;
+  height: 310px;
+  position: absolute;
+  top:50%;
+  right:50%;
+  transform: translate(50%,-55%);
+}
+#show-in ul i{
+  display: block;
+  width: 87px;
+  height: 82px;
+  position: absolute;
+  top:50%;
+  right:50%;
+  transform: translate(50%,-10%);
+  background: url("../img/video_btn_ffc30d8.png");
+}
+#show-in ul i u{
+  text-decoration: none;
+  display: block;
+  background: url("../img/btn_l_0dbb348.png") 0 0 no-repeat;
+  width: 42px;
+  height: 15px;
+}
+.left-u{
+  position: absolute;
+  left: -62px;
+  top:25px;
+  animation: videor-left 2s linear infinite alternate;
+}
+.right-u{
+  position: absolute;
+  left: 105px;
+  top:40px;
+  animation: videor-right 2s linear infinite alternate;
+}
+@keyframes videor-right {
+  0%{
+    transform: translate(0,0)
+  }
+  20%{
+    transform: translate(-5px,0);
+    opacity:0;
+  }
+  100%{
+    transform: translate(-20px,0)
+  }
+}
+@keyframes videor-left {
+  0%{
+    transform: translate(0,0)
+  }
+  20%{
+    transform: translate(5px,0);
+    opacity:0;
+  }
+  100%{
+    transform: translate(20px,0)
+  }
+}
+@keyframes qrcode{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+  0%{
+    transform: translate3d(0,80px,0);
+  }
+}
+#video-play{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  opacity: 0.8;
+  background-color: black;
+  z-index: 20;
+  display: none;
+}
+video{
+  width: 854px;
+  height: 480px;
+  position: fixed;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  opacity: 1;
+  z-index: 21;
+  display: none;
+
+}
+#guanbi{
+  font-size: 20px;
+  color:red;
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url("../img/close_f694b8a.png");
+  border-radius: 50%;
+  border: 4px solid white;
+  position: fixed;
+  left: 83%;
+  top:20px;
+  z-index: 21;
+  display: none;
+  transition: all .5s;
+
+}
+#guanbi:hover{
+  transform: rotate(90deg);
+}
+.shiping{
+  width: 1920px;
+  height:665px;
+  position: absolute;
+  top: 0;
+  rlght:0;
+}

@@ -1,0 +1,130 @@
+/* 头部开始 */
+.top  {
+  height: 50px;
+  background-color: #FFF;
+  padding-top: 64px;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.06);
+}
+.top .in{
+  height: 50px;
+}
+.top .in img{
+  float: left;
+}
+.top .in i {
+  float: left;
+  width: 1px;
+  height: 26px;
+  overflow: hidden;
+  margin: 12px 20px 0 20px;
+  text-indent: -9999px;
+  background: #dfdfdf;
+}
+.top .in h2 {
+  float: left;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+/* 主体开始 */
+.main {
+  height: 512px;
+  background-color: #3aa7ec;
+}
+.main .in .bg {
+  position: relative;
+}
+.main .in .bg .ad_hover {
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 31px;
+  height: 16px;
+  overflow: hidden;
+  line-height: 999px;
+  background: url(../images/ad_hover.png) no-repeat scroll right top;
+  z-index: 100;
+}
+/* 功能栏开始 */
+.ftnList {
+  padding: 50px 0;
+  background: #FFF;
+  box-shadow: 0 -3px 3px rgba(0,0,0,0.06);
+}
+.ftnList .cb {
+  zoom: 1;
+}
+.ftnList li {
+  float: left;
+  margin-right: 7px;
+}
+.ftnList .ftn{
+  height: 54px;
+  line-height: 54px;
+  font-size: 0;
+}
+.ftnList .ftn span {
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ftnList .ftn em {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.ftnList .ftn span i {
+  color: #b9b9b9;
+  font-size: 12px;
+}
+.ftnList li .new {
+  background: url(../images/icon.png) no-repeat 9999px 9999px;
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  display: inline-block;
+  width: 26px;
+  height: 7px;
+  background-position: -270px 0;
+}
+.ftnList .em1 em{
+  background: url(../images/icon.png) no-repeat 9999px 9999px;
+  background-position: 0 -150px;
+}
+
+.ftnList .em2 em{
+  background: url(../images/icon.png) no-repeat 9999px 9999px;
+  background-position: -120px -150px;
+}
+.ftnList .em3 em{
+  background: url(../images/icon.png) no-repeat 9999px 9999px;
+  background-position: -60px -150px;
+}
+
+.ftnList .em4 em{
+  background: url(../images/icon.png) no-repeat 9999px 9999px;
+  background-position: -240px -150px;
+}
+
+/* 底部开始 */
+.ft .cp {
+  padding: 30px 0;
+}
+.ft .cp p {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.ft .cp p, .cp p a {
+  color: #949494;
+}
+
+.box {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}

@@ -1,0 +1,476 @@
+@charset "gb2312";
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #000;
+}
+
+html, body, fieldset, img, iframe, abbr {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+  font-weight: 700;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0;
+}
+
+body, textarea, input, button {
+  color: #353535;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+html, body {
+  width: 100%;
+  min-height: 930px;
+  min-width: 1280px;
+  height: auto;
+  font-family: '"Microsoft YaHei",Arial,Helvetica,sans-serif';
+}
+
+a, p, i, span {
+  font-family: 'Microsoft YaHei';
+}
+
+i, em ,u,s{
+  font-style: normal;
+  list-style: none;
+}
+
+body {
+  background-color: #e5eef9
+}
+
+body.hidden {
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+}
+
+a {
+  color: #313131;
+}
+
+a:hover {
+  color: #d22c24;;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*版心*/
+.col {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*版心的公共类*/
+.w {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+#middle {
+  position: relative;
+  /*top: 1510px;*/
+  width: 1460px;
+  margin: 0 auto;
+  height: 162px;
+  /*    border: 1px solid red;*/
+  box-sizing: border-box;
+  background: url(../imgs/index_z_07f28d7.png) 0 -820px;
+}
+
+/*<!--s=攻略部分 -->*/
+#middle .strategy {
+  float: left;
+  width: 476px;
+  height: 100%;
+  /*	border: 1px solid black;*/
+  font: 700 20px '微软雅黑';
+  color: #fff;
+  text-align: center;
+  margin-left:30px;
+}
+
+.strategy-left-nav dt {
+  width: 152px;
+  height: 149px;
+  border: 1px solid #fff;
+  line-height: 149px;
+  margin: 2px 2px 2px 2px;
+  float: left;
+}
+
+.strategy-left-nav dd {
+  float: left;
+  height: 72px;
+  width: 75px;
+  border: 1px solid #fff;
+  margin: 1px;
+  padding-top:4px;
+  box-sizing: border-box;
+
+}
+
+.strategy-left-nav dd:last-child {
+  line-height: 50px;
+  
+}
+.strategy-left-nav dd:nth-child(9):hover {
+  transition: all 0.5s;
+}
+
+.strategy-left-nav dd:hover {
+  background-color: #000;
+  opacity: 0.6;
+  color: #fff;
+}
+
+/* <!-- s=手风琴伸缩导航 -->*/
+#middle .Telescopic-navigation {
+  height: 97%;
+  width: 720px;
+  /*border: 1px solid red;*/
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-left:46px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#middle #introduce-skill {
+  width: 718px;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #ffffff;
+}
+
+#middle #introduce-skill li .skill1 {
+  width: 295px;
+  float: left;
+  padding: 19px 0 0 24px;
+  position: relative;
+  height: 131px;
+  overflow: hidden;
+  display: none;         /* 当鼠标悬停在.control-skill的时候这里显示*/
+ background-color: #eaf3fc;
+}
+
+#introduce-skill  .skill1 p {
+  text-align: center;
+  color: #000;
+  margin-left:10px ;
+
+}
+#introduce-skill  .skill1 p:hover{
+  color: red;
+}
+
+#introduce-skill .control-skill{
+  width: 79px;
+  height: 150px;
+  /*border:1px solid red;*/
+  background-color: #8fbdef;
+  box-sizing: border-box;
+  border-left: 2px solid  #ffffff;
+}
+#introduce-skill .control-skill:hover{
+background-color:#eaf3fc;
+}
+
+
+
+
+#introduce-skill  .control-skill  p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  padding-top: 20px;
+}
+#introduce-skill  .control-skill  span {
+  display: block;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 6px;
+  width: 50px;
+  height: 50px;
+  background:url(../imgs/index_z_07f28d7.png) -1368px -490px;
+}
+#introduce-skill  .control-skill  i{
+  display: block;
+  margin-left: 15px;
+  margin-top: 6px;
+  width: 50px;
+  height: 50px;
+  background:url(../imgs/index_z_07f28d7.png) -65px -1388px;;
+}
+#introduce-skill  .control-skill  s{
+  display: block;
+  margin-left: 15px;
+  margin-top: 6px;
+  width: 50px;
+  height: 50px;
+  background:url(../imgs/index_z_07f28d7.png) -780px -415px;
+}
+#introduce-skill  .control-skill  strong{
+  display: block;
+  margin-left: 15px;
+  margin-top: 6px;
+  width: 50px;
+  height: 50px;
+  background:url(../imgs/index_z_07f28d7.png) -130px -1388px;
+}
+#introduce-skill  .control-skill  em{
+  display: block;
+  margin-left: 15px;
+  margin-top: 6px;
+  width: 50px;
+  height: 50px;
+  background:url(../imgs/index_z_07f28d7.png) 0 -1388px;
+}
+#introduce-skill .control-skill:hover p{
+  transition: all 0.3s;
+  color:#464748 ;
+  margin-bottom:-2px;
+}
+
+
+
+#introduce-skill .control-skill:nth-child(2):hover p{
+  transition: all 0.3s;
+  color:#464748 ;
+  margin-bottom:-2px;
+}
+
+#community {
+  height: 520px;
+  /*border:1px solid red;*/
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.community-l{
+  width: 260px;
+  height: 100%;
+  background-color: #e5efff;
+  box-sizing: border-box;
+}
+.community-l .wjsq{
+  height: 59px;
+  width: 100%;
+  padding-top:32px;
+  font:700 18px '微软雅黑' ;
+  box-sizing: border-box;
+}
+.community-l .bgcc{
+  height: 400px;
+  width: 100%;
+  background-color: #9eccfe;
+}
+.community-l .wjsqdb{
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height:60px;
+  font:700 16px '微软雅黑';
+  box-sizing: border-box;
+  padding-top:20px;
+}
+.community-l span {
+  position: absolute;
+  top:15px;
+  left: -65px;
+  height: 444px;
+  width: 400px;
+  /*border:1px solid orangered;*/
+  background:url(../imgs/index_z_07f28d7.png)  -191px 0;
+  z-index: 10;
+}
+.community-l span:hover {
+  transition: all 0.5s;
+  left: -75px;
+}
+#community .player {
+  width: 940px;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top:18px;
+  /*background-color: darkgreen;*/
+
+}
+.player  .community-nav{
+  height: 40px;
+  width: 100%;
+  /*background-color: #fff;*/
+  border-bottom:1px solid #dadada;
+}
+.community-nav  .navli{
+  height: 100%;
+  width: 100%;
+  float: left;
+  margin-bottom:20px;
+}
+.community-nav  .navli li{
+  float: left;
+  width: 64px;
+  height: 100%;
+  margin-left:24px;
+  font:700 14px '微软雅黑' ;
+  line-height:40px;
+  text-align: center;
+
+}
+.community-nav  .navli li:hover{
+  color: #9C0202;
+  transition: all 0.7s;
+  border-bottom:2px  solid   #9C0202;
+}
+.community-nav  .navli li:nth-child(2):hover{
+  color: #9C0202;
+  border-bottom:2px  solid   #9C0202;
+}.community-nav  .navli li:nth-child(3):hover{
+  color: #9C0202;
+  border-bottom:2px  solid   #9C0202;
+}.community-nav  .navli li:nth-child(4):hover{
+  color: #9C0202;
+  border-bottom:2px  solid   #9C0202;
+}
+.community-nav .cos {
+  margin-left:10px;
+  margin-bottom:50px;
+  /*display: none;*/
+  /*width: 0;*/
+  /*overflow: hidden;*/
+}
+.cos li{
+  height: 400px;
+  float: left;
+  text-align: center;
+  margin-bottom:50px;
+  /*overflow: hidden;*/
+}
+.cos li:nth-child(2) {
+  margin: 0 30px;
+}
+.cos .h-item {
+
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  width: 260px;
+  height: 350px;
+}
+
+.cos .h-info {
+  font: 700 70px '微软雅黑';
+  text-align: center;
+  line-height: 350px;
+  background-color: #000000;
+}
+/*img {
+  display: block;
+}*/
+
+
+.h-info a {
+
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+#shenniu.cos {
+  height: 380px;
+  width: 980px;
+  overflow: hidden;
+}
+#shenniu.cos li{
+
+  height: 150px;
+  overflow: hidden;
+  margin: 20px;
+}
+#shenniu.cos li .h-info{
+  font: 700 70px '微软雅黑';
+  text-align: center;
+  line-height: 150px;
+
+  background-color: #000000;     /*     这里需要动态修改的*/
+}
+
+
+#basal_sliding {
+  position: absolute;
+  bottom: 25px;
+  right: 336px;
+}
+#basal_sliding li{
+  float: left;
+}
+#basal_sliding li span{
+  width: 55px;
+  height: 4px;
+  background-color: #dadada;
+  float: left;
+  margin-left: 3px;
+}
+#basal_sliding span:hover a{
+  transition: all 1s;
+  display: block;
+  width: 55px;
+  height: 4px;
+  background-color: #9C0202;
+}

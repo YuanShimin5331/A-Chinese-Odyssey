@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* 通用设置开始 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+body {
+  font: 12px/150% Microsoft YaHei, Arial, Verdana, "SimSun";
+  background-color: #EFEFEF;
+}
+
+fieldset, img, input, button, textarea {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline-style: none;
+}
+
+select, input, textarea {
+  font-size: 12px;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+label {
+  float: left;
+  width: 340px;
+  text-align: right;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 45px;
+  color: #333;
+}
+
+input {
+  padding: 0;
+  outline: none;
+  border: none;
+  float: left;
+  height: 44px;
+  width: 320px;
+  margin-top: 30px;
+  border: solid 1px #ddd;
+  font-size: 16px;
+  text-indent: 0.5em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+s, i, em {
+  font-style: normal;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table;
+  width: 0;
+  height: 0;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* 版心 */
+.g-in {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* 通用设置结束 */

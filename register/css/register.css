@@ -1,0 +1,173 @@
+/* 头部开始 */
+.g-hd {
+  height: 130px;
+}
+
+/* 头部LOGO模块 */
+.g-hd .g-in .m-logo {
+  float: left;
+  width: 300px;
+  height: 60px;
+  margin-top: 35px;
+  background: url(../images/sprite.png) -50px -18px no-repeat;
+}
+
+/* 头部登入模块 */
+.g-hd .g-in .m-tr-block {
+  float: right;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+/* 中心主体模块 */
+.g-bd {
+  position: relative;
+  width: 1000px;
+  padding-bottom: 55px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px #cbc9c9;
+}
+
+/* 注册账号模块 */
+.g-bd .m-tab {
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 44px;
+  padding-bottom: 24px;
+}
+
+/* 普通账号注册 */
+.g-bd .m-tab .left {
+  width: 159px;
+  border: solid 1px #ccc;
+  border-right: 0;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+}
+
+.g-bd .m-tab .select {
+  background: #ca5252;
+  border-color: #ca5252;
+  color: #fff;
+}
+
+/* 靓号注册 */
+.g-bd .m-tab .right {
+  display: block;
+  width: 159px;
+  border: solid 1px #ccc;
+  border-left: 0;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  float: right;
+  position: relative;
+}
+
+/* new标志模块 */
+.g-bd .m-tab .new {
+  position: absolute;
+  font-size: 9px;
+  color: #fff;
+  background: #ca5252;
+  height: 12px;
+  line-height: 9px;
+  width: 26px;
+  top: 4px;
+  border-radius: 2px;
+  right: 12px;
+}
+
+/*中心主体模块开始*/
+.m-opr {
+  height: 620px;
+}
+
+.verify .i-inpt{
+  border-radius: 50px;
+  height: 34px;
+}
+.note {
+  height: 22px;
+  line-height: 22px;
+  margin-left: 340px;
+  margin-top: 15px;
+  float: left;
+}
+.note a {
+  color: #3aa7ec;
+}
+.duanxin {
+  float: left;
+}
+#inpt-sms {
+  width: 190px;
+}
+.m-opr .btn-getsms-btndisabled {
+  opacity: 0.6;
+  cursor: default;
+  background-color: #a1d1f6;
+}
+.m-opr .btn-getsms {
+  float: left;
+  height: 46px;
+  width: 120px;
+  font-size: 16px;
+  line-height: 46px;
+  margin: 30px 0 0 10px;
+  color: #fff;
+  background: #4ba7e0;
+  text-align: center;
+}
+.btn-reg{
+  position: absolute;
+  left: 340px;
+  bottom: 110px;
+  width: 322px;
+  height: 46px;
+  background-color: red;
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #ca5252;
+}
+.m-opr .tip{
+  color: #b1b1b1;
+  float: left;
+  position: absolute;
+  left: 340px;
+  bottom: 60px;
+}
+.m-opr .tip a {
+  text-decoration: none;
+  color: #b1b1b1;
+  line-height: 20px;
+}
+.m-agree {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  border: solid 1px #aaa;
+  color: #999;
+  font-size: 12px;
+  background: url(../images/sprite.png) -9999px -9999px no-repeat;
+}
+
+.m-cp {
+  padding: 30px 0;
+}
+.m-cp p {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.m-cp p, .m-cp p a {
+  color: #b1b1b1;
+}

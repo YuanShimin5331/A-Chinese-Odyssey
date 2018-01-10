@@ -1,0 +1,610 @@
+.walkthrough {
+  width: 1400px;
+  height: 350px;
+  /*background-color: #fff;*/
+  margin:0 auto;
+  margin-top: 50px;
+  /*overflow: hidden;*/
+  position: relative;
+}
+
+/*游戏攻略*/
+.gongl {
+  width: 1200px;
+  height: 50px;
+  background-color: #f7fafd;
+  margin-bottom: 1px;
+}
+.gongl h4{
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: center;
+  width: 77px;
+  height: 22px;
+  background: url('../images/spirit.png') no-repeat;
+  background-position: -791px -1388px;
+  color: transparent;
+
+}
+
+/*右边＋号*/
+.gongl a {
+  width: 20px;
+  height: 20px;
+  /*background-color: red;*/
+  margin-right: 8px;
+  border: 2px solid #ebebeb;
+  margin-top: 6px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 50;
+}
+.gongl a em {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  margin: -5px -5px;
+}
+.gongl a:hover{
+  border: 2px solid #ccc;
+}
+.gongl a i {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: url("../images/spirit.png") no-repeat;
+  background-position: -592px -1269px;
+  margin-bottom: 5px;
+}
+
+/*手风琴效果图*/
+.walkthrough .acc {
+  float: left;
+  width: 1200px;
+  height: 305px;
+  margin: 1px 2px;
+  padding-bottom: 5px;
+}
+.glnav {
+  height: 300px;
+  background: #fff;
+  /*padding: 2px 4px;*/
+  position: relative;
+}
+.glnav .item {
+  width: 120px;
+  height: 100%;
+  float: right;
+  position: relative;
+  /*background-color: #eaf1fa;*/
+  overflow: hidden;
+  /*border: 1px solid #fff;*/
+  margin-left: 1px;
+  background-color: #eaf1fa;
+  }
+.glnav .g-line {
+  width: 1px;
+  height: 152px;
+  background: #000;
+  position: absolute;
+  top: 24px;
+  right: 120px;
+}
+.con-l{
+  position: absolute;
+  width: 410px;
+ padding: 12px 0 0 20px;
+  height: 260px;
+  overflow: hidden;
+}
+.txtlist{
+  z-index: 999;
+}
+.txtlist li {
+  background: url(../images/dot.png) no-repeat 0 center;
+  padding-left: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+.txtlist li a {
+  font-size:14px;
+  float: left;
+  /*color: rgb(53,53,53);*/
+}
+
+.bg1 {
+  width: 420px;
+  height: 90px;
+  display: block;
+  position: relative;
+  /*overflow: hidden;*/
+}
+.bg1 img {
+  width: 424px;
+  /*height: 1px;*/
+  position: absolute;
+  top: -20px;
+  opacity: .7;
+}
+
+.bg1 a {
+  display: block;
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  left: 1px;
+  top: 24px;
+  z-index: 1;
+}
+.bg1 a span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: block;
+  color: #4a75a5;
+  padding-left: 25px;
+}
+.tit1 {
+  font-size: 20px;
+
+  width: 80%;
+  font-weight: 700;
+}
+.tit2 {
+font-size: 12px;
+  padding-top: 30px;
+  margin-bottom: 5px;
+}
+.con-r {
+  position: absolute;
+  height: 296px;
+  width: 120px;
+  top: 0;
+  right: 0;
+  background: #eaf1fa;
+  z-index: 10;
+}
+.con-r .r-tlt {
+  top: 25px;
+  font-family: 'Microsoft YaHei';
+  width: 23px;
+  color: #2b2b2b;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  line-height: 18px;
+  position: absolute;
+  top: 23px;
+  left: 54px;
+}
+.con-r .r-img {
+  top: 120px;
+  left: 10px;
+  bottom: 18px;
+  width: 130px;
+  height: 159px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.cur {
+  width: 586px;
+  background: #f5f9ff;
+  overflow: visible;
+}
+.img1{
+  background:url(../images/spirit.png);
+  background-position: -1376px -575px;
+}
+.img2 {
+  background:url(../images/spirit.png);
+  background-position: -593px -474px;
+}
+.img3 {
+  background:url(../images/spirit.png);
+  background-position:-705px -481px;
+}
+.img4 {
+  background:url(../images/spirit.png);
+  background-position:-1250px -581px;
+}
+.img5 {
+  background:url(../images/spirit.png);
+  background-position:-1126px -318px;
+}
+.img6 {
+  background:url(../images/spirit.png);
+  background-position:-599px -636px;
+}
+
+/*右图*/
+.pic {
+  width: 180px;
+  height: 352px;
+  z-index: 12;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pic .pic-bg {
+  width: 174px;
+  height: 346px;
+  top: 0;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  border: 3px solid #73aef7;
+}
+.pic .pic-line {
+  width: 3px;
+  position: absolute;
+  height: 61px;
+  background: #e5eef9;
+  right: 177px;
+  top: 15px;
+}
+.pic .pic-txt {
+  width: 49px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 136px;
+  background: url(../images/spirit.png) no-repeat;
+  background-position: -1406px -1299px;
+}
+.pic .pic-img {
+  top: 1px;
+  right: -96px;
+  width: 285px;
+  height: 373px;
+  position: absolute;
+  display: block;
+}
+.pic-img img {
+  position: absolute;
+  top: 2px;
+  right: 17px;
+}
+.pic-line2 {
+  width: 21px;
+  height: 85px;
+  background: #e5eef9;
+  right: 177px;
+  top: 265px;
+  border-right: 3px solid #73aef7;
+  display: block;
+  position: absolute;
+  
+}
+
+
+
+/*资料卡中心*/
+
+.data-k {
+  /*margin: 10px auto;*/
+  position: relative;
+  width: 1400px;
+  margin: auto;
+}
+.zkl {
+  width: 1400px;
+  height: 250px;
+  position: relative;
+}
+.dol {
+  height: 250px;
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  margin: 20px auto;
+  /*background-color: red;*/
+}
+.dol img {
+  height: 250px;
+  width: 1400px;
+  display: block;
+  vertical-align: top;
+}
+.dol .time{
+  font-family: Arial;
+  color: #e7e7e7;
+  position: absolute;
+  left: 25px;
+  top: 29px;
+}
+.time em {
+  font-weight: 700;
+  font-size: 40px;
+  padding-right: 3px;
+}
+.dol .info {
+  color: #313131;
+  width: 300px;
+  position: absolute;
+  left: 25px;
+  top: 68px;
+}
+.info .t1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.info .t2{
+  font-size: 14px;
+}
+.dol .sum {
+  font-size: 12px;
+  color: #6d6d6d;
+  line-height: 22px;
+  width: 338px;
+  position: absolute;
+  height: 66px;
+  overflow: hidden;
+  top: 45px;
+  right: 25px;
+  font-family: 'Microsoft YaHei';
+}
+.dol .mo {
+  position: absolute;
+  top: 121px;
+  right: 337px;
+  border-color: #cdcdcd;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ebebeb;
+}
+.dol .mo em {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin: -5px 0 0 -5px;
+  overflow: hidden;
+}
+.dol .mo em i {
+  display: block;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  background: url(../images/spirit.png) no-repeat;
+  background-position: -592px -1269px;
+}
+
+/*tab*/
+.f-nav {
+  position: relative;
+  height: 270px;
+}
+.tab {
+  width: 990px;
+  height: 80px;
+  position: absolute;
+  left: 170px;
+  top: 220px;
+  /*float: left;*/
+  box-shadow: 2px 5px 10px rgba(0,0,0,.5);
+}
+.tab a{
+  display: block;
+  width: 80px;
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  height: 80px;
+  width: 120px;
+  position: relative;
+  line-height: 80px;
+  float: left;
+  background:url("../images/spirit.png") no-repeat;
+  background-position: -929px -1154px;
+}
+.tab a i {
+  position: absolute;
+  z-index: 3;
+  width: 20px;
+  text-align: center;
+  left: 50%;
+  margin-left: -10px;
+  height: 2px;
+  background-color: #fff;
+  bottom: 25px;
+  transition:all ease-in-out .3s;
+}
+.tab a:hover i{
+  width: 50px;
+  left:38%;
+}
+.tab .center {
+  display: block;
+  width: 150px;
+  height: 100px;
+  margin-top: -20px;
+  text-indent: -1000px;
+  overflow: hidden;
+  background:url(../images/spirit.png) no-repeat;
+  background-position: -567px -1154px;
+  float: left;
+}
+.select {
+  display: block;
+}
+
+/*帮助*/
+#help {
+  height: 100px;
+  margin: 50px auto;
+  position: relative;
+}
+.line-d {
+  width: 22%;
+  height: 1px;
+  display: block;
+  background: #c7dbf0;
+  position: absolute;
+  top: 45%;
+}
+.l1 {
+  left: 0;
+}
+.l2 {
+  right: 0;
+}
+.icon {
+  width: 72px;
+  height: 73px;
+  text-align: center;
+  /*margin-right: 42px;*/
+  display: inline-block;
+  font-size: 14px;
+  color: #4e8ecb;
+  vertical-align: top;
+  position: absolute;
+  left: 300px;
+  top: 10px;
+}
+.icon i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background:url(../images/spirit.png) no-repeat;
+}
+.icon span {
+  color: #4e8ecb;
+}
+.icon span:hover {
+  text-decoration: underline;
+}
+.icon1 i {
+  background-position: -289px -1299px;
+}
+.icon2 {
+  left: 420px;
+}
+.icon2 i{
+  background-position: -115px -1299px
+}
+.icon3 {
+  left: 550px;
+}
+.icon3 i {
+  background-position: -202px -1299px
+}
+
+.kefu {
+  /*width: 100px;*/
+  height: 100px;
+  /*background-color: red;*/
+  position: absolute;
+  left: 680px;
+}
+.kefu p{
+  line-height: 26px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  color: #4e8ecb;
+  font-size: 14px;
+}
+.kefu p span {
+  color: #d22c24;
+}
+.kefu a {
+  display: block;
+  width: 118px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  background-color: #f4f8fc;
+  border-radius: 15px;
+  color: #4e8ecb;
+  border: 1px solid #4e8ecb;
+  
+}
+.kefu a:hover {
+  background-color: #fff;
+}
+
+/*footer*/
+.footer {
+  height: 300px;
+  background-color: #e5eef1;
+  border-top: 1px solid #fff;
+  color: #666666;
+  padding:25px 0 35px;;
+}
+.copy {
+  width: 840px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 15px 0 10px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.copy a {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+}
+.cn-nav {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+}
+.cn-nav a {
+  color: #666666;
+}
+.cn-nav span {
+  margin: 0 3px;
+  font-size: 20px;
+}
+/*span,a,p{*/
+  /*color: #666666;*/
+  /*font-size: 12px;*/
+/*}*/
+.cn-cx {
+  width: 595px;
+}
+.cn-nav p {
+  float: left;
+  line-height: 23px;
+}
+.cn-nav .cx {
+  float: right;
+  background-color: #610000;
+  /*position: absolute;*/
+  height: 23px;
+  width: 165px;
+  display: inline-block;
+  line-height: 23px;
+  color: #fff;
+  font-size: 12px;
+}
+.cn-nav .cx:hover{
+  text-decoration: underline;
+}
+.c-end {
+ float: left;
+  margin-top: 10px;
+}
+.c-end span {
+  font-size: 12px;
+}
+.c-end span a {
+  color: #666;
+}
+.c-end span a:hover {
+  text-decoration: underline;
+}
+/*ending*/
